@@ -3,28 +3,81 @@ body{
 	justify-content: center;
 	margin: 0;
 }
-.div-start{
-	display: flex;
-	width: 1445px;
-	height: 100vh;
-	background-color: grey;
-}
-main{
-	justify-content: left;
+
+nav{
 	width: 280px;
 	height:100vh;
 	background-color: black;
 }
-.div-right{
-	
+main{
+	width: 1110px;
+	height:100vh;
+	background-color: white;
 }
-.h1-electro{
-margin-left: 80px;
-margin-top: 85px;
+h1{
+	margin: 0;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+section{
+	display: inline-block;
+	font-size: 25px;
+	font-family:sans-serif;
+	margin-left: 15px;
+}
+p{
+	margin: 5px;
+	font-size: 18px;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+button{
+	margin-top: 17px;
 }
 
-.div-text{
+.start{
+	display: flex;
+	width: 1440px;
+	height: 100vh;
+	background-color: black;
+}
+.rollup{
+	width: 100%;
+	height: 80px;
+}
+.main-discription{
+	display: flex;
+	justify-content: space-around;
+}
+.main-discription div:first-of-type{
 	
-	justify-content: left;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.main-discription div:last-of-type{
+	
+	margin-right: 100px;
 	text-align: left;
+	padding-left: 40px;
+	padding-top: 15px;
+}
+input[type="text"], select{
+	text-align: center;
+	width: 325px;
+	height: 50px; 
+}
+input[type="text"]{
+	margin-top: 5px;
+}
+input[placeholder="Введите длину в метрах"]{
+	margin-bottom: 20px;
+}
+input[type="submit"], button{
+	height: 40px;
+  	padding-left: 20px;
+ 	padding-right: 20px;
+  	font-size: 20px;
+ 	background-color: #fab811;
+ 	border-radius: 5px;
+ 	border:none;
 }
