@@ -6,12 +6,12 @@ body{
 
 nav{
 	width: 280px;
-	height:100vh;
+	height:200vh;
 	background-color: black;
 }
 main{
 	width: 1110px;
-	height:100vh;
+	height:200vh;
 	background-color: white;
 }
 h1{
@@ -38,7 +38,7 @@ button{
 .start{
 	display: flex;
 	width: 1440px;
-	height: 100vh;
+	height: 200vh;
 	background-color: black;
 }
 .rollup{
@@ -80,4 +80,23 @@ input[type="submit"], button{
  	background-color: #fab811;
  	border-radius: 5px;
  	border:none;
+}
+.imgJal{
+	width: 92%;
+	margin-top: 150px;
+	margin-left: 40px;
+	margin-bottom: 35px;
+}
+.main-discription2{
+	display: flex;
+	justify-content: space-around;
+}
+.main-discription2 div:first-of-type{
+	margin-left: 60px;
+	margin-right: 80px;
+}
+.main-discription2 div:last-of-type{
+	display: flex;
+	justify-content: space-around;
+	margin-right: 70px;
 }
