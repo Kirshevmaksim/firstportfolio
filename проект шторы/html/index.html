@@ -13,7 +13,7 @@
 				<div>
 					<h1>Электро-жалюзи</h1>
 					<p>С помощью одного пульта можно управлять жалюзи быстро и легко, не вставая с кресла. Возможность контролировать освещенность помещения всего одним нажатием кнопки. Такие жалюзи особенно хороши для труднодоступных окон.</p>
-					<button>Опустить</button>
+					<button class="activeButton">Опустить</button>
 				</div>
 				<div>
 					<select>
@@ -21,33 +21,33 @@
 					</select>
 					<input type="text" placeholder="Введите ширину в метрах">
 					<input type="text" placeholder="Введите длину в метрах"><br>
-					<input type="submit"> <section style="display: inline-block;">Итого:</section>
+					<input  type="submit" class="activeButton"> <section style="display: inline-block;">Итого:</section>
 				</div>
 			</div>
-			<img class="imgJal" src="../resources/АЛЮМИНИЕВЫЕ_ЖАЛЮЗИ_черная_посуда_на_рублевка_двое_кто_мы_и_откуда 1.png">
+			<div class="main-img">
+				<img class="imgJal" id="Al" src="../resources/АЛЮМИНИЕВЫЕ_ЖАЛЮЗИ_черная_посуда_на_рублевка_двое_кто_мы_и_откуда 1.png">
+				<img class="imgJal hide" id="bum" src="../resources/бамбук.png">
+			</div>
 			<div class="main-discription2">
 				<div>
 					<h1>Горизонтальные</h1>
 					<p>Выполняются из разных пород древисины и бамбука. Чаще всего используется в дизайне комнат восточном, марокканском, этнографическом и кантри стилях. Рекомендуется крепление на проем, в проем и на створки окна.</p>
 				</div>
 				<div>
-					<button>Алюминиевые</button>
-					<button>Бамбуковые</button>
+					<button class="activeButton" id="AlButton" onclick="ChangeFirstBlockImageAl()">Алюминиевые</button>
+					<button id="bumButton" onclick="ChangeFirstBlockImageBum()">Бамбуковые</button>
 				</div>
 			</div>
 			<div class="main-discription3">
+				<h1>Вертикальные</h1>
 				<div>
-					<h1>Вертикальные</h1>
 					<p>На сегодняшний день разнобразие материалов, цветов и фактур позволяет уже не ассоциировать вертикальные жалюзи с офисами. Они будут идеально смотреться в интерьерах любого назначения. Рекомендуется крепление на проем и в проем окна.</p>
 					<p>Самые интересные варианты вертикальных жалюзи. Преображают жилое и офисное пространство, выполняя свою солнцезащитную функцию. Рекомендуется крепление на проем и в проем окна.</p>
 				</div>
-				<div>
-					<img src="../resources/вертикальные жалюзи.png">
-					<button></button>
-					<button></button>
-				</div>
+				<img src="../resources/вертикальные жалюзи.png">
 			</div>
 		</main>			
 	</div>
+	<script type="text/javascript" src="../js/index.js"></script>
 </body>
 </html>
