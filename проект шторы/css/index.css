@@ -6,12 +6,12 @@ body{
 
 nav{
 	width: 280px;
-	height:200vh;
+	height:400vh;
 	background-color: black;
 }
 main{
 	width: 1110px;
-	height:200vh;
+	height:400vh;
 	background-color: white;
 }
 h1{
@@ -38,7 +38,7 @@ button{
 .start{
 	display: flex;
 	width: 1440px;
-	height: 200vh;
+	height: 400vh;
 	background-color: black;
 }
 .rollup{
@@ -50,12 +50,10 @@ button{
 	justify-content: space-around;
 }
 .main-discription div:first-of-type{
-	
 	margin-left: 80px;
 	margin-right: 80px;
 }
 .main-discription div:last-of-type{
-	
 	margin-right: 100px;
 	text-align: left;
 	padding-left: 40px;
@@ -132,4 +130,66 @@ input[type="submit"], button{
 .main-discription3 img{
 	margin-right: 50px;
 	height: 660px;
+}
+.div-button{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 50px;
+}
+.main-discription4{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.main-discription4 div:first-of-type{
+	margin-left: 125px;
+	margin-right: 80px;
+	margin-top: 50px;
+}
+.main-discription4 div:last-of-type{
+	margin-right: 50px;
+	text-align: left;
+	padding-left: 125px;
+	padding-top: 15px;
+}
+.img-Pyl{
+	height: 375px;
+}
+.img-Pyl2{
+	height: 361px;
+}
+.main-discription5{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-discription5 div:first-of-type{
+	margin-left: 210px;
+	margin-right: 80px;
+	margin-top: 30px;
+}
+.main-discription5 div:last-of-type{
+	margin-right: 250px;
+	text-align: left;
+	padding-top: 15px;
+}
+.main-discription5-p{
+	transform: rotate(-90deg);
+	margin-left: -170px;
+}
+.main-discription6{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-discription6 div{
+	width: 400px;
+	margin-right: 50px;
+	margin-top: 100px;
+	margin-left: 70px;
+}
+.main-discription6 img{
+	margin-right: 50px;
+	margin-top: 40px;
+	height: 430px;
 }
