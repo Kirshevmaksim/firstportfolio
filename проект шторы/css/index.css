@@ -106,7 +106,7 @@ input[type="submit"], button{
 	width: 580px;
 }
 .hide{
-	display: none;
+	display: none !important;
 }
 .main-img{
 	display: flex;
@@ -160,22 +160,30 @@ input[type="submit"], button{
 }
 .main-discription5{
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	margin-top: 30px;
+	margin-left: 5px;
 }
 .main-discription5 div:first-of-type{
-	margin-left: 210px;
-	margin-right: 80px;
-	margin-top: 30px;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	width: 591px;
 }
 .main-discription5 div:last-of-type{
-	margin-right: 250px;
 	text-align: left;
-	padding-top: 15px;
+	margin-left: 62px;
+	width: 400px;
 }
 .main-discription5-p{
 	transform: rotate(-90deg);
-	margin-left: -170px;
+	position: absolute;
+	top: 150px;
+	left: 310px;
+	letter-spacing: 5px;
+}
+.main-discription5 img{
+	height: 320px;
 }
 .main-discription6{
 	display: flex;
@@ -192,4 +200,8 @@ input[type="submit"], button{
 	margin-right: 50px;
 	margin-top: 40px;
 	height: 430px;
+}
+#plicce2{
+	width: 591px;
+	height: 320px;
 }

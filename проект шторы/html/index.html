@@ -19,9 +19,10 @@
 					<select>
 						<option>Электро-жалюзи</option>
 					</select>
-					<input type="text" placeholder="Введите ширину в метрах">
-					<input type="text" placeholder="Введите длину в метрах"><br>
-					<input  type="submit" class="activeButton"> <section style="display: inline-block;">Итого:</section>
+					<input id="inp1" type="text" placeholder="Введите ширину в метрах" maxlength="2" pattern="[0-9]{2}">
+					<input id="inp2" type="text" placeholder="Введите длину в метрах" maxlength="2" pattern="[0-9]{2}"><br>
+					<input  type="submit" class="activeButton" value="Посчитать" onclick="MathCalc()"> 
+					<section id="res">Итого:</section>
 				</div>
 			</div>
 			<div class="main-img">
@@ -68,9 +69,12 @@
 				</div>
 			</div>
 			<div class="main-discription5">
-				<div>
+				<div onclick="OpenPlicce()" id="plicce">
 					<p class="main-discription5-p">нажми на шторку</p>
 					<img src="../resources/плиссе.png">
+				</div>
+				<div onclick="ClosePlicce()" id="plicce2" class="hide">
+					<img src="../resources/плиссе с буквами.png">
 				</div>
 				<div>
 					<p>Этими шторами можно украсить окно любой конфигурации. Они подчеркнут и украсят его нестандартную форму. Такие ткани могут быть разной плотности, фактуры и цвета.</p>
