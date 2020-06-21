@@ -6,12 +6,12 @@ body{
 
 nav{
 	width: 280px;
-	height:400vh;
+	height:490vh;
 	background-color: black;
 }
 main{
 	width: 1110px;
-	height:400vh;
+	height:490vh;
 	background-color: white;
 }
 h1{
@@ -34,11 +34,34 @@ p{
 button{
 	margin-top: 17px;
 }
-
+.foot{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	margin-top: 75px;
+	width: 100%;
+	height: 150px;
+}
+.foot a{
+	color: white;
+}
+.foot p{
+	font-size: 16px;
+	color: yellow;
+}
+.foot div{
+	margin-top: 55px;
+}
+.foot-div3-a{
+	margin-top: 15px;
+}
+.foot div:last-of-type{
+	margin-right: 50px;
+}
 .start{
 	display: flex;
 	width: 1440px;
-	height: 400vh;
+	height: 490vh;
 	background-color: black;
 }
 .rollup{
@@ -189,6 +212,8 @@ input[type="submit"], button{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 60px;
+	margin-bottom: 110px;
 }
 .main-discription6 div{
 	width: 400px;
@@ -204,4 +229,49 @@ input[type="submit"], button{
 #plicce2{
 	width: 591px;
 	height: 320px;
+}
+.h1-end{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.block{
+	background-color: lightgrey;
+	width: 100%;
+	height: 725px;
+	margin-top: 40px;
+}
+.main-discription7{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.main-discription7 div:first-of-type{
+	margin-left: 200px;
+}
+.main-discription7 div:last-of-type{
+	width: 100%;
+	margin-right: 160px;
+	align-items: center;
+	margin-top: 40px;
+	padding-left: 30px; 
+}
+.main-discription7 a{
+	font-size: 40px;
+	color: black;
+}
+.main-discription7 input:first-of-type{
+	text-align: left;
+	width: 350px;
+	height: 50px;
+	border-radius: 5px;
+ 	border:2px solid black;
+}
+.main-discription7 input:last-of-type{
+	text-align: left;
+	margin-top: 10px;
+	width: 350px;
+	height: 120px;
+	border-radius: 5px;
+ 	border:2px solid black;
 }
