@@ -51,12 +51,20 @@ button{
 }
 .foot div{
 	margin-top: 55px;
+	margin-left: 50px;
 }
 .foot-div3-a{
-	margin-top: 15px;
+	padding-bottom: 20px; 
+	margin-top: 20px;
+}
+.foot div:first-of-type{
+	margin-right: 50px;
 }
 .foot div:last-of-type{
 	margin-right: 50px;
+}
+.foot-p-white{
+	color: white !important;
 }
 .start{
 	display: flex;
