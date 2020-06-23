@@ -31,15 +31,17 @@ function ClosePlicce(){
 	document.getElementById('plicce').classList.remove("hide");
 }
 var input1, input2, result;
-var prise=300;
+var prise;
+
 function MathCalc(){
-	if (input1>0 && input2>0) {
+	prise=document.getElementById('select').value;
 	input1=document.getElementById("inp1").value;
 	input2=document.getElementById("inp2").value;
+	if (input1>0 && input2>0) {
 	result=input1*input2*prise;
 	document.getElementById("res").innerHTML="Итого: "+result+" Dollars";
 	}
-	if (input1 != 0 || input2 != 0) {
+	if (isNaN(document.getElementById("inp1").value) || isNaN(document.getElementById("inp2").value)) {
 		document.getElementById("res").innerHTML="Вы ввели неверные значения"
 	}	
 }
