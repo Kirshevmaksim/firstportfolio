@@ -6,12 +6,10 @@ body{
 
 nav{
 	width: 280px;
-	height:490vh;
 	background-color: black;
 }
 main{
 	width: 1110px;
-	height:490vh;
 	background-color: white;
 }
 h1{
@@ -34,6 +32,46 @@ p{
 button{
 	margin-top: 17px;
 }
+textarea{
+	text-align: left;
+	margin-top: 10px;
+	width: 345px;
+	height: 120px;
+	border-radius: 5px;
+ 	border:2px solid black;
+ 	resize: none;
+}
+
+.rollup-hide{
+	top: -300px;
+}
+.rollup-active{
+	position: absolute;
+	background-color: rgba(0,0,0,1);
+	box-sizing: border-box;
+	color: white;
+	border-radius: 0 0 10px 10px;
+	left: 40px;
+	width: 600px;
+	height: 327px;
+	padding-right: 50px;
+	padding-left: 40px;
+	padding-top: 80px;
+	transition:all 2s linear;
+	-moz-transition:all 2s 0 linear;
+	-webkit-transition:all 2s linear;
+	-o-transition:all 2s linear;
+}
+.rollup-active button{
+	margin-top: 60px;
+	margin-left: 270px;
+}
+.rollup{
+	transition: all 300ms;
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
 .foot{
 	display: flex;
 	justify-content: space-between;
@@ -47,7 +85,7 @@ button{
 }
 .foot p{
 	font-size: 16px;
-	color: yellow;
+	color: #fab811;
 }
 .foot div{
 	margin-top: 55px;
@@ -69,13 +107,9 @@ button{
 .start{
 	display: flex;
 	width: 1440px;
-	height: 490vh;
 	background-color: black;
 }
-.rollup{
-	width: 100%;
-	height: 80px;
-}
+
 .main-discription{
 	display: flex;
 	justify-content: space-around;
@@ -272,14 +306,6 @@ input[type="submit"], button{
 	text-align: left;
 	width: 350px;
 	height: 50px;
-	border-radius: 5px;
- 	border:2px solid black;
-}
-.main-discription7 input:last-of-type{
-	text-align: left;
-	margin-top: 10px;
-	width: 350px;
-	height: 120px;
 	border-radius: 5px;
  	border:2px solid black;
 }

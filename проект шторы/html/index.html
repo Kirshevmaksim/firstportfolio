@@ -8,12 +8,18 @@
 	<div class="start">
 		<nav>menu</nav>
 		<main>
-			<div class="rollup"></div>
+			<div class="rollup">
+				<div  id="roll" class="rollup-active rollup-hide">
+					<h1>Электро-жалюзи</h1>
+					<p>Опущенные шторы также легко поднять, одно нажатие и шторы уже не опущены.</p>
+					<button onclick="CloseRollup()" class="activeButton">поднять</button>
+				</div>
+			</div>
 			<div class="main-discription">
 				<div>
 					<h1>Электро-жалюзи</h1>
 					<p>С помощью одного пульта можно управлять жалюзи быстро и легко, не вставая с кресла. Возможность контролировать освещенность помещения всего одним нажатием кнопки. Такие жалюзи особенно хороши для труднодоступных окон.</p>
-					<button class="activeButton">Опустить</button>
+					<button onclick="OpenRollup()" class="activeButton">Опустить</button>
 				</div>
 				<div>
 					<select>
@@ -93,7 +99,7 @@
 			<div class="main-discription7">
 				<div>
 					<input type="text" name="email" placeholder="Ваш e-mail...">
-					<input type="text" placeholder="Введите сообщение...">
+					<textarea placeholder="Введите сообщение..."></textarea>
 					<button class="activeButton">Отправить</button>
 				</div>
 				<div>
@@ -115,6 +121,7 @@
 					<div class="foot-div3">
 						<p>Тех.поддержка:</p>
 						<a href="tel:+7482265-50-01">+7482265-50-01</a>
+						<br>
 						<a class="foot-div3-a" href="tel:+7482265-51-13">+7482265-51-13</a>
 					</div>
 					<div>

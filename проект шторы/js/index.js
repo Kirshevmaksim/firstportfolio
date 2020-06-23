@@ -43,3 +43,9 @@ function MathCalc(){
 		document.getElementById("res").innerHTML="Вы ввели неверные значения"
 	}	
 }
+function OpenRollup(){
+	document.getElementById('roll').classList.remove("rollup-hide");
+}
+function CloseRollup(){
+	document.getElementById('roll').classList.add("rollup-hide");
+}
