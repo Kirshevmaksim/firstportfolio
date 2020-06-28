@@ -1,8 +1,53 @@
 body{
 	margin: 0;
 	position: relative;
+	display: flex;
+}
+main{
+	width: 1180px;
+}
+a{
+	text-decoration: none;
 }
 
+.main-div1{
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	width: 314px;	
+	left: 370px;
+	top: 17px;
+}
+.main-div1 a{
+	color: black;
+}
+.main-p{
+	position: absolute;
+	left: 767px;
+	color: #1B75BB;
+}
+.main-div2{
+	position: absolute;	
+	left: 1151px;
+	top: 16px;
+}
+.main-div2 select{
+	text-decoration-style: dashed;
+}
+.main-div3{
+	position: absolute;
+	width: 194px;
+	height: 50px;
+	left: 1356px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-top: 17px;
+	color: white;
+	background-color: #024178;
+}
+.main-div3 a{
+	color: white;
+}
 /* начало неизбежного фона*/
 	.background div{
 		z-index: -1;
