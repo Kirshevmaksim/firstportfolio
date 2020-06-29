@@ -117,6 +117,7 @@ a{
 	top: 160px;
 	background: #024178;
 	box-sizing: border-box;
+	padding-top: 2px;
 	padding-left: 20px;
 	color: #FFFFFF;
 }
