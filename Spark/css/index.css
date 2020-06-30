@@ -139,6 +139,40 @@ a{
 	line-height: 19px;
 }
 /*конец Меню*/
+/*Слайдер*/
+.main-h1{
+	position: absolute;
+	width: 597px;
+	height: 162px;
+	left: 370px;
+	top: 329px;
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 54px;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+}
+.main-p2{
+	position: absolute;
+	width: 315px;
+	height: 44px;
+	left: 370px;
+	top: 532px;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+.main-button{
+	position: absolute;
+	width: 220px;
+	height: 50px;
+	left: 370px;
+	top: 630px;
+	background-color: #CE2525;
+	border: #CE2525;
+	color: #FFFFFF;
+}
+/*Конец Слайдер*/
 /* начало неизбежного фона*/
 	.background div{
 		z-index: -1;
