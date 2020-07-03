@@ -2,10 +2,14 @@ body{
 	margin: 0;
 }
 main{
-	width: 1180px;
+	width: 100%;
+	max-width: 1180px;
 }
 a{
 	text-decoration: none;
+}
+p{
+	margin:0;
 }
 .pos-center{
 	display: flex;
@@ -17,6 +21,7 @@ a{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		height: 50px;
 	}
 	.main-div1{
 		display: flex;
@@ -64,6 +69,7 @@ a{
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		height: 110px;
 	}
 	.second-header-div1{
 		display: flex;
@@ -124,27 +130,29 @@ a{
 /*Каталог*/
 	.catalog-main-div{
 		display: flex;
-		margin-top: 26px;
 		align-items: center;
-	}
-	.catalog-main-div-img{
-		margin-left: 353px;
+		justify-content: space-between;
+		height: 60px;
 	}
 	.main-div6{
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		width: 212px;
 		height: 60px;
 		background: #024178;
 		box-sizing: border-box;
-		padding-top: 2px;
-		padding-left: 20px;
 		color: #FFFFFF;
 	}
+	.main-div6 img{
+		margin-right: 10px;
+	}
+
 	.main-div7{
 		display: flex;
 		justify-content: space-between;
-		width: 573px;
-		height: 19px;
-		margin-left: 24px;
+		align-items: center;
+		width: 809px;
 	}
 	.main-div7 a{
 		color: #FFFFFF;
@@ -156,24 +164,29 @@ a{
 	}
 /*конец Каталогa*/
 /*Слайдер*/
-	.main-h1{
-		width: 597px;
-		height: 162px;
+	.slader-div{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		height: 541px;
 		margin-top: 109px;
+		overflow: hidden;
+	}
+	.main-h1{
 		font-weight: bold;
 		font-size: 46px;
 		line-height: 54px;
 		letter-spacing: 0.03em;
 		color: #FFFFFF;
+		margin:0;
 	}
 	.main-p2{
-		width: 315px;
-		height: 44px;
 		font-family: Roboto;
-		
 		font-size: 16px;
 		line-height: 22px;
 		color: #FFFFFF;
+		width: 100%;
+		max-width: 315px;
 	}
 	.main-button{
 		width: 220px;
@@ -185,7 +198,6 @@ a{
 		margin-top: 54px;
 		font-size: 16px;
 		line-height: 22px;
-
 	}
 /*Конец Слайдер*/
 /* начало неизбежного фона*/
@@ -212,9 +224,11 @@ a{
 	.background div:nth-of-type(3){
 		top: 220px;
 		text-align: center;
-		background-color: #002040
+		background-color: #002040;
+		overflow: hidden;
 	}
 	.background div:nth-of-type(3) img{
+		
 		width: 1920px;
 		/**/
 	}
