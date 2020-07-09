@@ -331,6 +331,138 @@ p{
 		color: white;
 	}
 /*Конец Каталога с товарами*/
+/*Акции*/
+	.Action{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 65px;
+		width: 1180px;
+	}
+/*Конец Акции*/
+/*Популярные товары*/
+	.tovar-text{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		height: 28px;
+		margin-top: 60px;
+		color: white;
+	}
+	.tovar-text h2{
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.tovar{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 44px;
+	}
+	.tovar div{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 220px;
+		height: 75px;
+		background: #FFFFFF;
+		box-shadow: 0px 6px 10px rgba(33, 33, 33, 0.5);
+		border-radius: 3px;
+	}
+	.tovar p{
+		font-weight: bold;
+		margin-left: 20px;
+	}
+/*Конец Популярные товары*/
+/*Хиты*/
+	.hit-text{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		height: 28px;
+		margin-top: 120px;	
+	}
+	.hit-text button{
+		width: 30px;
+		height: 30px;
+	}
+	.hits{
+		width: 280px;
+		height: 440px;
+		border: 1px solid #EAEBEC;
+		box-sizing: border-box;
+		box-shadow: 0px 2px 10px rgba(33, 33, 33, 0.05);
+		border-radius: 3px;
+	}
+	.hits-div1{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 17px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.hits-img{
+		margin-top: 20px;
+		margin-left: 70px;
+	}
+	.hits-p{
+		margin-top: 23px;
+		margin-left: 20px;
+		font-size: 16px;
+		line-height: 20px;
+		color: #013464;
+	}
+	.hits-div2{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 24px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.hits-div2 h2{
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 26px;
+		color: #CE2525;
+	}
+	.hits-div2 p{
+		width: 85px;
+		height: 40px;
+		text-align: center;
+		padding-top: 11px;
+		background: #FBFBFB;
+		border: 1px solid #C6CACC;
+		box-sizing: border-box;
+		border-radius: 3px;
+	}
+	.hits-button{
+		margin-left: 20px;
+		outline: none;
+		width: 240px;
+		height: 40px;
+		background: #1B75BB;
+		border: none;
+		border-radius: 3px;
+		color: white;
+	}
+	.hits-a{
+		text-decoration: underline;
+		text-decoration-style: dashed;
+		margin-top: 24px;
+		margin-left: 76px;
+		font-family: Roboto;
+		font-size: 14px;
+		line-height: 16px;
+		color: #1B75BB;
+	}
+	.hits-host{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 34px;
+	}
+/*Конец Хиты*/
 /* начало неизбежного фона*/
 	.background{
 		position: relative;
