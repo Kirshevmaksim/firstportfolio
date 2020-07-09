@@ -200,6 +200,26 @@ p{
 		font-size: 16px;
 		line-height: 22px;
 	}
+	.owl-nav{
+		position: absolute;
+		top: 325px;
+		width: 100%;
+	}
+	.owl-nav button:first-of-type{
+		position: absolute;
+		left: -255px;
+	}
+	.owl-nav button:last-of-type{
+		position: absolute;
+		left: 1435px;
+	}
+	.owl-dots{
+		position: absolute;
+		top: 552px;
+		z-index: 1;
+		width: 48px;
+		height: 24px;
+	}
 /*Конец Слайдер*/
 /*Блок на слайдере*/
 	.block{
