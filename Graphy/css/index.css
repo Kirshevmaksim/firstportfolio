@@ -1,33 +1,94 @@
 body{
 	margin: 0;
 }
-section:nth-of-type(1){
-	width: 100%
-	max-width: 1780px;
+/*1 контент*/
+	section:nth-of-type(1){
+		text-align: center;
+		width: 100%;
+		max-width: 1780px;
+	}
+	section:nth-of-type(1) p{
+		color: white;
+		font-size: 18px;
+		margin-top: 135px;
+	}
+	.div-img{
+		
+		margin-top: 150px;
+	}
+	.div-a{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		max-width: 610px;
+		margin-top: 42px;
+		margin-bottom: 42px;
+		margin-left: 590px;
+	}
+	.div-a a{
+		font-size: 24px;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+		text-align: center;
+	}
+	hr{
+		width: 1786px;
+	}
+	.position{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+/*1 контент*/
+section:nth-of-type(2){
+	margin-top: 70px;
+	text-align: center;
+	width: 100%;
+	max-width: 1590px;
 }
-.div-img{
-	
-	margin-top: 200px;
-}
-.div-a{
+.div-a2{
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
-	max-width: 1780px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	max-width: 610px;
+	margin-top: 42px;
+	margin-bottom: 42px;
+	margin-left: 590px;
+	font-size: 24px;
 }
-a{
-	text-decoration: none;
-	color: white;
-	text-align: center;
+.div-a2 a{
+	color: lightgrey;
+}
+.cont{
+	display: flex;
+	justify-content: space-between;
+	width: 1590px;
+	margin-top: 75px;
+}
+.cont-2{
+	margin-top: 90px;
+	width: 670px;
+	height: 518px;
+	margin-left: 54px;
+	text-align: left;
+}
+.cont-2 h1{
+	font-size: 60px;
+}
+.cont-2 p{
+
+	font-size: 24px;
+}
+.cont img{
+	margin-left: 97px;
+}
+.scroll{
+	margin-left: 200px;
+	color: lightgrey;
 }
 
-.position{
-	display: flex;
-	justify-content: center;
-	width: 100%;
-}
 /*FON*/
 	.background{
 		position: relative;
@@ -46,10 +107,17 @@ a{
 		width: 1920px;
 	}
 	.background div:nth-of-type(2){
-
+		height: 1080px;
+		width: 1920px;
 	}
 	.background div:nth-of-type(3){
-
+		text-align: center;
+		top: 2160px;
+		overflow: hidden;
+	}
+	.background div:nth-of-type(3) img{
+		width: 1920px;
+		
 	}
 	.background div:nth-of-type(4){
 
