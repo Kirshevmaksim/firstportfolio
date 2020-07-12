@@ -314,7 +314,8 @@ p{
 		font-weight: normal;
 		margin-top: 13px;
 		margin-left: 20px;
-
+		padding-right: 20px;
+		text-align: left;
 		font-size: 16px;
 		line-height: 20px;
 		color: #FFFFFF;
@@ -461,6 +462,24 @@ p{
 		display: flex;
 		justify-content: space-between;
 		margin-top: 34px;
+	}
+	.CountHolder{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 85px;
+		height: 40px;
+		background: #FBFBFB;
+		border: 1px solid #C6CACC;
+		box-sizing: border-box;
+		border-radius: 3px;
+	}
+	.CountButton{
+		height: 100%;
+		width: 37px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 /*Конец Хиты*/
 /* начало неизбежного фона*/
