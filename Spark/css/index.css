@@ -339,6 +339,83 @@ p{
 		margin-top: 65px;
 		width: 1180px;
 	}
+	.Action>div:first-child{
+		display: flex;
+		justify-content: space-around;
+		
+		width: 580px;
+		height: 280px;
+		background-image: url(../resources/фон2.svg);
+	}
+	.Action>div:last-child{
+		display: flex;
+		justify-content: space-around;
+		width: 580px;
+		height: 280px;
+		background-image: url(../resources/фон.svg);
+	}
+	.Action>div:last-child img{
+		width: 266px;
+		height: 247px;
+		margin-top: 33px;
+		padding: 0;
+	}
+	.Action>div:last-child button{
+		width: 191px;
+		height: 40px;
+		background: #CE2525;
+		border-radius: 3px;
+		border: none;
+		margin-top: 28px;
+		color: white;
+	}
+	.Action>div>img{
+		float: right;
+		width: 191px;
+		height: 191px;
+		margin-top: 39px;
+	}
+	.action-div1{
+		display: inline-block;
+	}
+	.action-div1 div{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 62px;
+	}
+	.action-div1 div a{
+		color: white;
+		margin-top: 14px; 
+	}
+	.action-div1 h2{
+		width: 100%;
+		max-width: 248px;
+		color: white;
+		font-weight: 500;
+		margin-top: 39px;
+	}
+	.action-div1 p{
+		color: white;
+		font-size: 12px;
+	}
+	.action-div2{
+		margin-left: 20px;
+	}
+	.action-div2 div{
+		margin-top: 40px;
+	}
+	.action-div2 a{
+		font-weight: normal;
+		color: white;
+		font-size: 18px;
+		line-height: 32px;
+	}
+	.action-div2 h2{
+		color: white;
+		font-weight: 500;
+		margin-top: 39px;
+	}
+
 /*Конец Акции*/
 /*Популярные товары*/
 	.tovar-text{
@@ -408,6 +485,7 @@ p{
 		margin-left: 70px;
 	}
 	.hits-p{
+		width: 240px;
 		margin-top: 23px;
 		margin-left: 20px;
 		font-size: 16px;
@@ -429,14 +507,7 @@ p{
 		color: #CE2525;
 	}
 	.hits-div2 p{
-		width: 85px;
-		height: 40px;
-		text-align: center;
-		padding-top: 11px;
-		background: #FBFBFB;
-		border: 1px solid #C6CACC;
-		box-sizing: border-box;
-		border-radius: 3px;
+		padding: 0;
 	}
 	.hits-button{
 		margin-left: 20px;
@@ -482,6 +553,32 @@ p{
 		align-items: center;
 	}
 /*Конец Хиты*/
+/*Товары со скидкой*/
+	.hit-text2{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		height: 28px;
+		margin-top: 55px;	
+	}
+	.hit-text2 button{
+		width: 30px;
+		height: 30px;
+	}
+/*Товары со скидкой*/
+/*Почему мы*/
+	.Why{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 125px;
+	}
+	.Why p{
+		
+		width: 580px;
+		line-height: 20px;
+	}
+/*Почему мы*/
 /* начало неизбежного фона*/
 	.background{
 		position: relative;

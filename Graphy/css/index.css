@@ -13,8 +13,11 @@ body{
 		margin-top: 135px;
 	}
 	.div-img{
-		text-align: center;
-		margin-top: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 708px;
 	}
 	.div-a{
 		display: flex;
@@ -108,11 +111,18 @@ body{
 		margin-left: 590px;
 		font-size: 24px;
 	}
-	.div-img{
+	.section3-h1{
+		color: white;
+		margin-top: 90px;
+		font-size: 60px;
+
+	}
+	.div-img2{
 		display: flex;
 		justify-content: space-between;
 		margin-left: 97px;
 		margin-right: 97px;
+		margin-top: 50px;
 	}
 	section:nth-of-type(3) p{
 		margin-top: 80px;
@@ -121,6 +131,19 @@ body{
 	}
 /*3 контент*/
 /*4 контент*/
+	.div-a4{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		max-width: 610px;
+		margin-top: 95px;
+		margin-bottom: 42px;
+		margin-left: 590px;
+		font-size: 24px;
+	}
+	.div-a4 a{
+		color: lightgrey;
+	}
 	.info-cont{
 		margin-top: 200px;
 		text-align: center;
