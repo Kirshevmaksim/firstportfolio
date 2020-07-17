@@ -200,25 +200,49 @@ p{
 		font-size: 16px;
 		line-height: 22px;
 	}
-	.owl-nav{
+	@media screen and (min-width: 1900px){
+		.owl-nav{
 		position: absolute;
 		top: 325px;
 		width: 100%;
+		}
+		.owl-nav button:first-of-type{
+			position: absolute;
+			left: -255px;
+		}
+		.owl-nav button:last-of-type{
+			position: absolute;
+			left: 1435px;
+		}
+		.owl-dots{
+			position: absolute;
+			top: 552px;
+			z-index: 1;
+			width: 48px;
+			height: 24px;
+		}
 	}
-	.owl-nav button:first-of-type{
-		position: absolute;
-		left: -255px;
-	}
-	.owl-nav button:last-of-type{
-		position: absolute;
-		left: 1435px;
-	}
-	.owl-dots{
-		position: absolute;
-		top: 552px;
-		z-index: 1;
-		width: 48px;
-		height: 24px;
+	@media screen and (max-width: 1900px){
+		.owl-nav{
+			position: absolute;
+			top: 500px;
+			left: 50%;
+		}
+		.owl-nav button:first-of-type{
+			position: absolute;
+			left: -20px;
+		}
+		.owl-nav button:last-of-type{
+			position: absolute;
+			left: 20px;
+		}
+		.owl-dots{
+			position: absolute;
+			top: 552px;
+			z-index: 1;
+			width: 48px;
+			height: 24px;
+		}
 	}
 /*Конец Слайдер*/
 /*Блок на слайдере*/
@@ -260,11 +284,12 @@ p{
 		display: flex;
 		justify-content: space-between;
 		margin-top: 34px;
+		flex-wrap: wrap;
 	}
 	.catalog2-0 div{
 		width: 220px;
 		height: 280px;
-		
+		margin-top: 20px;
 		border: 1px solid #EAEBEC;
 		box-sizing: border-box;
 		box-shadow: 0px 2px 10px rgba(33, 33, 33, 0.05);
@@ -415,7 +440,6 @@ p{
 		font-weight: 500;
 		margin-top: 39px;
 	}
-
 /*Конец Акции*/
 /*Популярные товары*/
 	.tovar-text{
@@ -499,12 +523,14 @@ p{
 		padding-top: 24px;
 		padding-right: 20px;
 		padding-left: 20px;
+
 	}
 	.hits-div2 h2{
 		font-weight: bold;
 		font-size: 22px;
 		line-height: 26px;
 		color: #CE2525;
+		
 	}
 	.hits-div2 p{
 		padding: 0;
@@ -518,6 +544,7 @@ p{
 		border: none;
 		border-radius: 3px;
 		color: white;
+		margin-bottom: 14px;
 	}
 	.hits-a{
 		text-decoration: underline;
@@ -565,6 +592,14 @@ p{
 	.hit-text2 button{
 		width: 30px;
 		height: 30px;
+	}
+	h3{
+		position: absolute;
+		font-family: Roboto;
+		font-size: 14px;
+		text-decoration: line-through;
+		color: #929698;
+		top: -15px;
 	}
 /*Товары со скидкой*/
 /*Почему мы*/
