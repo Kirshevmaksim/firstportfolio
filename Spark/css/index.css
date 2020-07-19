@@ -593,7 +593,8 @@ p{
 		width: 30px;
 		height: 30px;
 	}
-	h3{
+	
+	.hits-div2 h3{
 		position: absolute;
 		font-family: Roboto;
 		font-size: 14px;
@@ -658,6 +659,70 @@ p{
 		flex-direction: column;
 	}
 /*Опыт, цена, качество*/
+/*Схема работы*/
+	.scheme{
+		margin-top: 56px;
+	}
+	.scheme2{
+		display: flex;
+		justify-content: space-between;
+	}
+	.scheme2>div{
+		width: 280px;
+		height: 240px;
+		background-color: #024178;
+		border-radius: 3px;
+	}
+	.scheme2>div div{
+		display: flex;
+		margin-left: 26px;
+		margin-top: 30px;
+	}
+	.scheme2 h3{
+		font-family: Roboto;
+		font-weight: bold;
+		line-height: 19px;
+		margin-left: 24px;
+		color: white;
+	}
+	.scheme2 p{
+		color: white;
+		text-align: left;
+		margin-top: 32px;
+		margin-left: 20px;
+		margin-right: 20px;		
+		font-family: Roboto;
+		line-height: 20px;
+	}
+	
+/*Схема работы*/
+/*Комплексные решения*/
+	.judgment01{
+		background-image: url(../resources/КОМПЛЕКСНЫЕ РЕШЕНИЯ.png);
+	}
+	.judgment{
+		margin-top: 72px;
+	}
+	.judgment2{
+		display: flex;
+		justify-content: space-between;
+	}
+	.judgment2 img{
+		margin-top: 18px;
+	}
+	.judgment2 p{
+		margin-top: 18px;
+		margin-left: 25px;
+	}
+	.judgment2>div{
+		display: flex;
+		justify-content: space-between;
+	}
+	.judgment2>div div:first-of-type{
+		display: flex;
+		flex-direction: column;
+	}
+/*Комплексные решения*/
 /* начало неизбежного фона*/
 	.background{
 		position: relative;
