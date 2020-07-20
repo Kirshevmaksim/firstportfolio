@@ -662,6 +662,7 @@ p{
 /*Схема работы*/
 	.scheme{
 		margin-top: 56px;
+		margin-bottom: 34px;
 	}
 	.scheme2{
 		display: flex;
@@ -694,7 +695,6 @@ p{
 		font-family: Roboto;
 		line-height: 20px;
 	}
-	
 /*Схема работы*/
 /*Комплексные решения*/
 	.judgment01{
@@ -723,6 +723,51 @@ p{
 		flex-direction: column;
 	}
 /*Комплексные решения*/
+/*Сертификаты*/
+	.cert{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 68px;
+
+	}
+	.cert button{
+		width: 30px;
+		height: 30px;
+	}
+	.cert2{
+		display: flex;
+		justify-content: space-between;
+	}
+/*Сертификаты*/
+/*Крупнейшие компании*/
+	.comp{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 80px;
+		margin-bottom: 30px;
+	}
+	.comp h2{
+		color: white;
+	}
+	.comp button{
+		background: none;
+		color: white;
+		width: 30px;
+		height: 30px;
+		border-radius: 3px;
+		border: 1px solid #FFFFFF;
+	}
+	.comp2{
+		display: flex;
+		justify-content: space-between;
+	}
+	.comp2 img{
+		width: 170px;
+		height: 49px;
+	}
+/*Крупнейшие компании*/
 /* начало неизбежного фона*/
 	.background{
 		position: relative;
