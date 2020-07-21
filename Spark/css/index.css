@@ -11,6 +11,11 @@ a{
 p{
 	margin:0;
 }
+button{
+	background: none;
+	border-radius: 3px;
+	border: 1px solid black;
+}
 .pos-center{
 	display: flex;
 	justify-content: center;
@@ -295,7 +300,7 @@ p{
 		box-shadow: 0px 2px 10px rgba(33, 33, 33, 0.05);
 		border-radius: 3px;
 	}
-	.catalog2-0 p:first-of-type{
+	.catalog2-0 p:first-of-type, .news p:first-of-type{
 		font-size: 12px;
 		line-height: 14px;
 		margin-top: 15px;
@@ -625,7 +630,7 @@ p{
 		width: 50px;
 		height: 51px;
 	}
-	.info p:first-of-type{
+	.info p:first-of-type, .news2 p:nth-of-type(2){
 		font-family: Roboto;
 		font-weight: 500;
 		line-height: 19px;
@@ -698,7 +703,9 @@ p{
 /*Схема работы*/
 /*Комплексные решения*/
 	.judgment01{
-		background-image: url(../resources/КОМПЛЕКСНЫЕ РЕШЕНИЯ.png);
+		background-image: url(../resources/k.png);
+		background-repeat: no-repeat;
+		background-position: top right;
 	}
 	.judgment{
 		margin-top: 72px;
@@ -752,7 +759,6 @@ p{
 		color: white;
 	}
 	.comp button{
-		background: none;
 		color: white;
 		width: 30px;
 		height: 30px;
@@ -762,12 +768,81 @@ p{
 	.comp2{
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 39px;
 	}
 	.comp2 img{
 		width: 170px;
-		height: 49px;
+		filter: opacity(50%);
 	}
 /*Крупнейшие компании*/
+/*Новости*/
+	.news{
+		height: 572px;
+	}
+	.news1{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 56px;
+	}
+	.news1 a{
+		color: #1B75BB;
+	}
+	.news2{
+		width: 280px;
+		height: 445px;
+		box-shadow: 0 2px 10px 2px rgba(0,0,0,0.1);
+		border-radius: 3px;	
+	}
+	.news2 img{
+		width: 100%;
+	}
+	.news2 p:nth-of-type(3){
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 18px;
+		margin-bottom: 14px;
+	}	
+	.news2 p{
+		font-family: 'Roboto', sans-serif;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 14px;
+	}
+	.news2 p:nth-of-type(1){
+		padding-left: 0;
+	}
+	.news2 a{
+		text-decoration: underline;
+   	 	text-decoration-style: dashed;
+		font-weight: 300;
+		font-size: 14px;
+		color: #1B75BB;
+		padding-left: 20px;
+	}
+	.news20{
+		display: flex;
+		justify-content: space-between;
+	}
+/*Новости*/
+/**/
+	.map{
+		display: flex;
+		height: 600px;
+		width: 1550px;
+		background-color: black;
+	}
+	.map1{
+		width: 500px;
+		height: 100%;
+	}
+	.map2{
+		width: 1050px;
+		height: 128px;
+	}
+	
+/**/
 /* начало неизбежного фона*/
 	.background{
 		position: relative;
