@@ -826,23 +826,172 @@ button{
 		justify-content: space-between;
 	}
 /*Новости*/
-/**/
+/*Карта*/
 	.map{
 		display: flex;
 		height: 600px;
 		width: 1550px;
-		background-color: black;
+	}
+	.map-2{
+		width: 1050px;
+		height: 100%;
 	}
 	.map1{
+		display: flex;
+		flex-direction: column;
 		width: 500px;
 		height: 100%;
+		color: white;
+		padding-right: 99px;
+	}
+	.map1 h2{
+		margin-top: 36px;
+	}
+	.map1_1{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 70px;
+	}
+	.map1_1 button{
+		width: 141px;
+		height: 50px;
+		background: #CE2525;
+		color: white;
+		border: none;
+		margin-right: 41px;
+	}
+	.map1_1 div{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		margin-left: 22px;
+	}
+	.map1_1 p:last-of-type{
+		text-decoration: underline;
+		text-decoration-style: solid;
+	}
+	.map1 input{
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: 1px solid white; 
+		background: none;
+		width: 400px;
+		height: 32px;
+		margin-top: 30px;
+	}
+	.map1 input:last-of-type{
+		margin-bottom: 30px;
+	}
+	.map1 textarea{
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		background: none;
+		border-bottom: 1px solid white; 
+		width: 400px;
+		height: 68px;
+		resize: none;
 	}
 	.map2{
 		width: 1050px;
 		height: 128px;
+		display: flex;
 	}
-	
-/**/
+	.map2 div:first-of-type{
+		padding-top: 36px;
+		padding-left: 60px;
+		font-family: Roboto;
+	}
+	.tell{
+		font-family: Roboto;
+		font-weight: bold;
+		font-size: 16px;
+		color: black;
+		line-height: 26px;
+	}
+	.img-p{
+		margin-right: 15px;
+	}
+	.div-p{
+		margin-top: 20px;
+	}
+	.map2 div:last-of-type{
+		padding-top: 36px;
+		padding-left: 60px;
+		font-family: Roboto;
+	}
+	.pochta{
+		text-decoration: underline;
+		text-decoration-style: solid;
+		color: #1B75BB;
+	}
+	.map3{
+		overflow: hidden;
+	}
+/*Карта*/
+/*футер*/
+	.footer1{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 53px;
+		padding-bottom: 52px;
+	}
+	.text-div{
+		display: flex;
+		flex-direction: column;
+	}
+	.text-div h3{
+		margin-top: 0;
+		font-family: Roboto;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 19px;
+		color: #919699;
+	}
+	.text-div p{
+		line-height: 35px;
+	}
+	.footer1 div:first-of-type img{
+		margin-bottom: 22px;
+	}
+	.footer1 div:first-of-type p{
+		margin-bottom: 25px;
+	}
+	.position{
+		margin-top: 15px;
+	}
+	.text2{
+		width: 180px;
+		line-height: 20px !important;
+	}
+/*футер*/
+/*Ниж. футер*/
+	footer{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 52px;
+	}
+	footer p{
+		text-decoration: underline;
+		text-decoration-style: solid;
+		font-family: Roboto;
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.footer-p1{
+
+	}
+	.footer-p2{
+		margin-left: 60px;
+	}
+	.footer-p3{
+		margin-left: 525px;
+	}
+/*Ниж. футер*/
 /* начало неизбежного фона*/
 	.background{
 		position: relative;
