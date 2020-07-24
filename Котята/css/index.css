@@ -1,0 +1,33 @@
+body{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+.background{
+	position: absolute;
+}
+main{
+	width: 1366px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 76px;
+	width: 100%;
+	max-width: 1170px;
+}
+header div{
+	display: flex;
+	justify-content: space-between;
+	width: 405px;
+}
+a{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #1A212F;
+	line-height: 19px;
+	font-style: normal;
+	text-decoration: none;
+}
