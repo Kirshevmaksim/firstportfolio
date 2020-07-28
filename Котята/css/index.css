@@ -10,29 +10,25 @@ main{
 	width: 1366px;
 }
 a{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato Regular', sans-serif;
 	font-size: 16px;
-	font-weight: 600;
 	color: #1A212F;
 	line-height: 19px;
-	font-style: normal;
 	text-decoration: none;
 }
 h1{
-	font-family: 'Rubik', sans-serif;
-	font-weight: bold;
+	font-family: 'Rubik Medium', sans-serif;
 	font-size: 36px;
 	line-height: 43px;
 	margin: 0;
 }
 h2{
-	font-family: 'Rubik', sans-serif;
-	font-weight: 500;
+	font-family: 'Rubik Normal', sans-serif;
 	font-size: 22px;
 	line-height: 140%;
 }
 p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato Regular', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -57,13 +53,12 @@ p{
 	section:nth-of-type(1){
 		display: flex;
 		align-items: center;
-		/*background-image: url(../resources/img/Mask Group.png);*/
+		background-image: url(../resources/img/Cat.png);
 		width: 100%;
 		height: 504px;
-		background: orange;
 	}
 	section:nth-of-type(1) h1{
-		font-family: 'Rubik Mono One', sans-serif;
+		font-family: 'Rubik Bold', sans-serif;
 		font-size: 62px;
 		margin-top: 15px;
 		margin-bottom: 0;
@@ -71,15 +66,12 @@ p{
 	section:nth-of-type(1) div{
 		margin-left: 198px;
 	}
-	section:nth-of-type(1) p:{
-		font-family: 'Lato', sans-serif;
-	}
 	section:nth-of-type(1) button{
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
 		font-size: 16px;
-		font-family: 'Lato', sans-serif;
+		font-family: 'Lato Regular', sans-serif;
 		border: none;
 		border-radius: 25px;
 		width: 206px;
@@ -89,7 +81,13 @@ p{
 /*1 секция*/
 /*2 секция*/
 	section:nth-of-type(2){
+		height: 757px;
 		margin-top: 140px;
+		width: 1170px;
+	}
+	.sect-div0{
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.sect-div1{
 		text-align: center;
@@ -110,5 +108,8 @@ p{
 		padding-right: 30px;
 		box-sizing: border-box;
 		margin-bottom: 20px;
+	}
+	.sect-div2 p{
+		width: 291px;
 	}
 /*2 секция*/
