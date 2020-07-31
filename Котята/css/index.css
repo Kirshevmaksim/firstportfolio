@@ -7,7 +7,11 @@ body{
 	position: absolute;
 }
 main{
-	width: 1366px;
+	width: 100%;
+	max-width: 1366px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 a{
 	font-family: 'Lato Regular', sans-serif;
@@ -21,6 +25,8 @@ h1{
 	font-size: 36px;
 	line-height: 43px;
 	margin: 0;
+	margin-bottom: 70px;
+	text-align: center;
 }
 h2{
 	font-family: 'Rubik Normal', sans-serif;
@@ -73,6 +79,7 @@ p{
 		font-size: 16px;
 		font-family: 'Lato Regular', sans-serif;
 		border: none;
+		outline: none;
 		border-radius: 25px;
 		width: 206px;
 		height: 50px;
@@ -83,19 +90,10 @@ p{
 	section:nth-of-type(2){
 		height: 757px;
 		margin-top: 140px;
-		width: 1170px;
-	}
-	.sect-div0{
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.sect-div1{
-		text-align: center;
-		margin-bottom: 70px;
 	}
 	.sect-div2{
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		flex-wrap: wrap;
 	}
 	.sect-div2 div{
@@ -109,7 +107,77 @@ p{
 		box-sizing: border-box;
 		margin-bottom: 20px;
 	}
+	.sect-div2>div{
+		margin-right: 15px;
+		margin-left: 15px;
+	}
 	.sect-div2 p{
 		width: 291px;
 	}
 /*2 секция*/
+/*3 секция*/
+	section:nth-of-type(3){
+		margin-top: 140px;
+		height: 578px;
+		width: 1030px;
+	}
+	span{
+		color: #FAC663;
+		font-size: 43px;
+	}
+	ul{
+		padding-left: 0;
+	}
+	li{
+		display: flex;
+		align-items: center;
+		list-style: none;
+		font-family: 'Lato Regular', sans-serif;
+		margin: 0;
+		height: 33px;
+	}
+	.sect3-div1{
+		display: flex;
+		align-items: center;
+	}
+	.sect3-div1>span{
+		width: 36px;
+		height: 36px;
+	}
+	.sect3-div1>img{
+		z-index: -1;
+	}
+	.sect3-div2{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		box-sizing: border-box;
+		width: 500px;
+		height: 284px;
+		box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+		border-radius: 8px;
+		padding-left: 100px;
+		margin-left: -55px;
+	}
+	.sect3-div2	button{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		font-size: 16px;
+		font-family: 'Lato Regular', sans-serif;
+		border: none;
+		outline: none;
+		border-radius: 25px;
+		width: 206px;
+		height: 50px;
+		background: #FF7236;
+		color: white;
+	}
+
+/*3 секция*/
+/*4 секция*/
+	section:nth-of-type(4){
+		margin-top: 140px;
+		hyphens: 380px;
+	}
+/*4 секция*/
