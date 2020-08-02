@@ -83,7 +83,7 @@
     font-style: italic;
 }
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Lato Medium';
     src: local('Lato Heavy'), local('Lato-Heavy'), url('latoheavy.woff2') format('woff2'), url('latoheavy.woff') format('woff'), url('latoheavy.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
