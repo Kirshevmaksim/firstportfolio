@@ -22,11 +22,11 @@
 		<content>			
 			<div class="cont-div1">
 				<h1>Наши номера</h1>
-				<select>
-					<option>&#8593;  По площади</option>
-					<option>&#8595;  По площади</option>
-					<option>&#8593;  По цене</option>
-					<option>&#8595;  По цене</option>
+				<select id="select">
+					<option value="moreArea">&#8593;  По площади</option>
+					<option value="lessArea">&#8595;  По площади</option>
+					<option value="morePrice">&#8593;  По цене</option>
+					<option value="lessPrice">&#8595;  По цене</option>
 				</select>
 			</div>
 			<form>
@@ -50,62 +50,62 @@
 					<li><input type="checkbox" name="area-1" id="area-10"><label for="area-10">Игровой-комплекс</label></li>
 					<li><input type="checkbox" name="area-1" id="area-11"><label for="area-11">Домик</label></li>
 				</ul>
-				<input type="submit" name="submit" value="Применить">
+				<input onclick="check()" type="submit" name="submit" value="Применить">
 				<input type="reset" name="reset" value="Сбросить фильтр">
 			</form>
 			<div class="area-cat">
-				<div>
+				<div class="area-cat-div">
 					<img src="../resources/img/area-cat-1.png">
 					<h2>Эконом</h2>
 					<p>Размеры (ШхГхВ) - 90х70х180 см</p>
-					<p>Площадь - 0,63 м<sup>2</sup></p>
+					<p class="Area" value="0.63">Площадь - 0,63 м<sup>2</sup></p>
 					<p>Оснащение номера <span id="empty_number"><img src="../resources/vector/Vector-1.svg"></span></p>
-					<p>Цена за сутки: <span> 100&#8381;</span></p>
+					<p>Цена за сутки: <span class="Price" value="100"> 100&#8381;</span></p>
 					<button class="black-button">Забронировать</button>
 				</div>
-				<div>
+				<div class="area-cat-div">
 					<img src="../resources/img/area-cat-2.png">
 					<h2>Эконом плюс</h2>
 					<p>Размеры (ШхГхВ) - 90х100х180 см</p>
-					<p>Площадь - 0,90 м<sup>2</sup></p>
+					<p class="Area" value="0.90">Площадь - 0,90 м<sup>2</sup></p>
 					<p>Оснащение номера <span id="sofa"> <img src="../resources/vector/Vector-2.svg"></span> <span id="cat_thing"> <img src="../resources/vector/Vector-3.svg"></span></p>
-					<p>Цена за сутки: <span> 200&#8381;</span></p>
+					<p>Цена за сутки: <span class="Price" value="200"> 200&#8381;</span></p>
 					<button class="black-button">Забронировать</button>
 				</div>
-				<div>
+				<div class="area-cat-div">
 					<img src="../resources/img/area-cat-3.png">
 					<h2>Комфорт</h2>
 					<p>Размеры (ШхГхВ) - 100х125х180 см</p>
-					<p>Площадь - 1,13 м<sup>2</sup></p>
+					<p class="Area" value="1.13">Площадь - 1,13 м<sup>2</sup></p>
 					<p>Оснащение номера <span id="sofa"> <img src="../resources/vector/Vector-2.svg"></span> <span id="cat_thing"> <img src="../resources/vector/Vector-3.svg"></span> <span id="ball"> <img src="../resources/vector/Vector-4.svg"></span></p>
-					<p>Цена за сутки: <span> 250&#8381;</span></p>
+					<p>Цена за сутки: <span class="Price" value="250"> 250&#8381;</span></p>
 					<button class="black-button">Забронировать</button>
 				</div>
-				<div>
+				<div class="area-cat-div">
 					<img src="../resources/img/area-cat-4.png">
 					<h2>Сьют</h2>
 					<p>Размеры (ШхГхВ) - 125х125х180 см</p>
-					<p>Площадь - 1,56 м<sup>2</sup></p>
+					<p class="Area" value="1.56">Площадь - 1,56 м<sup>2</sup></p>
 					<p>Оснащение номера <span id="sofa"> <img src="../resources/vector/Vector-2.svg"></span> <span id="cat_thing"> <img src="../resources/vector/Vector-3.svg"></span> <span id="ball"> <img src="../resources/vector/Vector-4.svg"></span></p>
-					<p>Цена за сутки: <span> 350&#8381;</span></p>
+					<p>Цена за сутки: <span class="Price" value="350"> 350&#8381;</span></p>
 					<button class="black-button">Забронировать </button>
 				</div>
-				<div>
+				<div class="area-cat-div">
 					<img src="../resources/img/area-cat-5.png">
 					<h2>Люкс</h2>
 					<p>Размеры (ШхГхВ) - 160х160х180 см</p>
-					<p>Площадь - 2,56 м<sup>2</sup></p>
+					<p class="Area" value="2.56">Площадь - 2,56 м<sup>2</sup></p>
 					<p>Оснащение номера <span id="sofa"> <img src="../resources/vector/Vector-2.svg"></span> <span id="cat_thing"> <img src="../resources/vector/Vector-3.svg"></span> <span id="ball"> <img src="../resources/vector/Vector-4.svg"></span> <span id="home"><img src="../resources/vector/Vector-5.svg"></span></p>
-					<p>Цена за сутки: <span> 500&#8381;</span></p>
+					<p>Цена за сутки: <span class="Price" value="500"> 500&#8381;</span></p>
 					<button class="black-button">Забронировать </button>
 				</div>
-				<div>
+				<div class="area-cat-div">
 					<img src="../resources/img/area-cat-6.png">
 					<h2>Супер-Люкс</h2>
 					<p>Размеры (ШхГхВ) - 180х160х180 см</p>
-					<p>Площадь - 2,88 м<sup>2</sup></p>
+					<p class="Area" value="2.88">Площадь - 2,88 м<sup>2</sup></p>
 					<p>Оснащение номера <span id="sofa"> <img src="../resources/vector/Vector-2.svg"></span> <span id="cat_thing"> <img src="../resources/vector/Vector-3.svg"></span> <span id="ball"> <img src="../resources/vector/Vector-4.svg"></span> <span id="home"><img src="../resources/vector/Vector-5.svg"></span></p>
-					<p>Цена за сутки: <span> 600&#8381;</span></p>
+					<p>Цена за сутки: <span class="Price" value="600"> 600&#8381;</span></p>
 					<a href="./cart-number.html"><button class="black-button">Забронировать </button></a>
 				</div>
 			</div>
@@ -164,5 +164,6 @@
 			</div>
 		</div>
 	</main>
+	<script type="text/javascript" src="../js/index.js"></script>
 </body>
 </html>
