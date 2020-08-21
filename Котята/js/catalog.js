@@ -6,14 +6,14 @@ var option;
 
 function check(){
 	option=document.getElementById("select").value;
-	elemDiv=document.getElementByClassName("area-cat-div");
+	elemDiv=document.getElementsByClassName("area-cat-div");
 	console.log(option);
 
 	if (option=="lessArea"||option=="moreArea"){
-		elem=document.getElementByClassName("Area");
+		elem=document.getElementsByClassName("Area");
 	}
 	else if (option=="lessPrice"||option=="morePrice"){
-		elem=document.getElementByClassName("Price");
+		elem=document.getElementsByClassName("Price");
 	}
 	for (step = 0; step < elem.length; step++){
 		elemValue[step]=elem[step].getAttribute("value");

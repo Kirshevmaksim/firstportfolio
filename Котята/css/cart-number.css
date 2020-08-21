@@ -64,7 +64,25 @@ li{
 	display: block;
 	width: 500px;
 	height: 396px; 
-	background-image: url("../resources/img/Number-cat.png");
 	background-size: 100% auto;
 	background-position: center;
+	background-repeat: no-repeat;
+}
+.super-lucs{
+	background-image: url("../resources/img/Number-cat.png");
+}
+.econom{
+	background-image: url("../resources/img/area-cat-1.png");
+}
+.econom-plus{
+	background-image: url("../resources/img/Cat2.png");
+}
+.comfort{
+	background-image: url("../resources/img/Number-cat2.png");
+}
+.suite{
+	background-image: url("../resources/img/Number-cat3.png");
+}
+.lucs{
+	background-image: url("../resources/img/area-cat-5.png");
 }
