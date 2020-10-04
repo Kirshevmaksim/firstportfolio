@@ -115,6 +115,7 @@ section>h1{
 	.sect3-div1{
 		display: flex;
 		align-items: center;
+		justify-content: center;
 	}
 	.sect3-div2{
 		background-color: white;
@@ -142,12 +143,31 @@ section>h1{
 			position: absolute;
 			left: 20px;
 		}
-		.owl-dots{
-			position: absolute;
-			top: 552px;
-			z-index: 1;
-			width: 48px;
-			height: 24px;
+		.owl-dots {
+			display: flex;
+        	justify-content: center;
+	    }
+	    .owl-dot{
+	    	width: auto;
+	        outline: none;
+	    }
+	    .owl-dots .owl-dot span {
+	        width: 20px;
+	        height: 20px;
+	        margin: 5px 7px;
+	           background: #D6D6D6;
+	        display: block;
+	        -webkit-backface-visibility: visible;
+	        transition: opacity .2s ease;
+	        border-radius: 30px;
+		}
+	    .owl-dots .owl-dot {
+	        display: inline-block;
+	        zoom: 1;
+		}
+	    .owl-dots .owl-dot.active span, 
+	    .owl-dots .owl-dot:hover span {
+	           background: #869791;
 		}
 /*3 секция*/
 /*5 секция*/
@@ -229,3 +249,26 @@ button.black-button:active{
 	border: 3px solid #FF7236;
 	color: black;
 }
+
+
+/*адаптив*/
+@media screen and (min-width:200px) and (max-width:1216px){
+	.sect3-div1 img{
+		width: 442px;
+		height: 326px;
+	}
+	.sect3-div2{
+		width: 345px;
+		height: 266px;
+	}
+	.sect3-div2 p{
+			font-size: 15px;
+	}
+	.sect3-div2 h2{
+		font-size: 20px;
+	}
+	.owl-nav{
+		display: none;
+	}
+}
+/*адаптив*/

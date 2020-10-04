@@ -26,7 +26,7 @@ select{
 		width: 210px;
 		float: left;
 		margin-top: 60px;
-		margin-right: 60px;
+		margin-right: 59px;
 	}
 	.p-margin{
 		margin-top: 0;
@@ -61,7 +61,7 @@ select{
 	.area-cat{
 		display: flex;
 		flex-wrap: wrap;
-		width: 900px;
+		width: 901px;
 		height: 885px;
 		margin-top: 60px;
 	}
