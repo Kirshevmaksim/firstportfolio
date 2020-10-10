@@ -102,6 +102,9 @@
 			background-image: url(../resources/img/Cat-main-desktop.png);
 			height: 868px;
 		}
+		#reviews{
+			display: none;
+		}
 	}
 	@media screen and (min-width:200px) and (max-width:1216px){
 		.sect-div2 div{
